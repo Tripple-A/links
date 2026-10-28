@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Find AB · Abiodun Olowode</title>
+<meta name="description" content="AB's podcast, blog and socials.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+  /* Layout: one narrow phone-first column; a name block, then links grouped by what people come for. */
+  :root {
+    --bg: #F5F7FC;
+    --surface: #FFFFFF;
+    --ink: #141A2E;
+    --muted: #5A6278;
+    --line: #DCE2EF;
+    --accent: #2F63E0;
+    --accent-ink: #FFFFFF;
+    --display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+    --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0F1424; --surface: #18203A; --ink: #EEF1FA; --muted: #A3ACC4; --line: #2A3456; --accent: #7EA2FF; --accent-ink: #0F1424; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0F1424; --surface: #18203A; --ink: #EEF1FA; --muted: #A3ACC4; --line: #2A3456; --accent: #7EA2FF; --accent-ink: #0F1424; color-scheme: dark;
+  }
+  body { margin: 0;
+    background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.5;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 40px 56px;
+  }
+  main { max-width: 460px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px; }
+  header { display: flex; flex-direction: column; gap: 10px; }
+  .mark {
+    width: 64px; height: 64px; border-radius: 50%; background: var(--accent); color: var(--accent-ink);
+    display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 24px; letter-spacing: 0.02em;
+  }
+  h1 { font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1.05; margin: 6px 0 0; text-wrap: balance; }
+  .role { color: var(--muted); margin: 0; }
+  .talk {
+    margin: 4px 0 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface);
+    font-size: 15px; color: var(--muted);
+  }
+  .talk b { color: var(--ink); font-weight: 700; }
+  section { display: flex; flex-direction: column; gap: 10px; }
+  h2 { font-family: var(--body); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0; }
+  ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  a.link {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 16px 18px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line);
+    color: var(--ink); text-decoration: none; min-width: 0;
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  a.link:hover { border-color: var(--accent); }
+  a.link:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  a.link:active { transform: scale(.99); }
+  .name { font-weight: 700; }
+  .sub { display: block; font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+  .arrow { color: var(--accent); font-family: var(--display); font-weight: 800; flex: none; }
+  a.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  a.primary .sub, a.primary .arrow { color: var(--accent-ink); opacity: .85; }
+  footer { color: var(--muted); font-size: 14px; }
+  @media (prefers-reduced-motion: reduce) { a.link { transition: none; } a.link:active { transform: none; } }
+</style>
+
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">AB</div>
+    <h1>Abiodun Olowode</h1>
+    <p class="role">Engineer, speaker, writer and podcaster. Call me AB.</p>
+    <p class="talk">You just heard <b>“We review code. Why won’t we review each other?”</b> at Codemotion Milan. Thanks for being part of it.</p>
+  </header>
+
+  <section aria-labelledby="pod">
+    <h2 id="pod">Podcast · Diary of a Silli-mazing Human</h2>
+    <ul>
+      <li><a class="link primary" href="https://open.spotify.com/show/033Tlm2nrzBcbZzxMdRLIa" target="_blank" rel="noopener"><span><span class="name">Listen on Spotify</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="link" href="https://podcasts.apple.com/gb/podcast/diary-of-a-silli-mazing-human/id6793168910" target="_blank" rel="noopener"><span class="name">Apple Podcasts</span><span class="arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="link" href="https://www.youtube.com/@sillimazinghuman" target="_blank" rel="noopener"><span><span class="name">YouTube</span><span class="sub">@sillimazinghuman</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="read">
+    <h2 id="read">Read</h2>
+    <ul>
+      <li><a class="link" href="https://blog.sillimazinghuman.com" target="_blank" rel="noopener"><span><span class="name">The blog</span><span class="sub">blog.sillimazinghuman.com</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="connect">
+    <h2 id="connect">Connect</h2>
+    <ul>
+      <li><a class="link" href="https://www.linkedin.com/in/abiodun-ajibade/" target="_blank" rel="noopener"><span><span class="name">LinkedIn</span><span class="sub">Abiodun Olowode</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="link" href="https://www.instagram.com/sillimazinghuman/" target="_blank" rel="noopener"><span><span class="name">Instagram</span><span class="sub">@sillimazinghuman</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+      <li><a class="link" href="https://x.com/thedevaphorist" target="_blank" rel="noopener"><span><span class="name">X</span><span class="sub">@thedevaphorist</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+    </ul>
+  </section>
+
+  <footer>Ask for the review. Review what you see. See you around.</footer>
+</main>
+</body>
+</html>
